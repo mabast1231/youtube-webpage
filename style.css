@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+header{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 5px;
+}
+
+.upper-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.upper-left{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 1rem;
+  justify-content: center;
+  
+}
+
+.upper-middle{
+    display: none;
+}
+
+.upper-left a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.upper-left p{
+    font-size: 1.5rem;
+}
+
+.upper-left i{
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+}
+
+.upper-left:hover{
+    background-color: lightgray;
+    transition-duration: 200ms;
+}
+
+.upper-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+   
+    justify-content: center;
+}
+
+.upper-right i{
+    font-size: 1.4rem;
+    
+}
+.upper-right a{
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    color: inherit;
+    width: 2.1rem;
+    height: 2rem;
+    border-radius: 1rem;
+    color: rgb(28, 74, 74);
+}
+
+.upper-right a:hover{
+    background-color: rgb(213, 213, 213);
+    transition-duration: 200ms;
+}
+.lower-header{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 10px;
+    
+}
+
+.light-text{
+    font-size: 0.9rem;
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    color: inherit;
+    background-color: rgb(211, 211, 211);
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+
+.light-text:hover{
+    opacity: 0.8;
+    transition-duration: 200ms;
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.square{
+    position: relative;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.square a img{
+    width: 100%;
+    display: inline;
+}
+
+.time{
+    position: absolute;
+    left: 16rem;
+    top: 17rem;
+    background-color: rgba(43, 42, 42, 0.75);
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.time p{
+    font-size: 0.9rem;
+}
+
+.video-info{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    
+}
+
+.channel-img{
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.channel-img img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.channel-img{
+    background-color: rgb(255, 255, 255);
+    width: 3rem;
+}
+.channel-img img{
+    width:2rem;
+    aspect-ratio: 1/1.3;
+    border-radius: 100%;
+    
+
+}
+.video-sub{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    gap: 1rem;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.upper-sub{
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-sub a{
+    text-decoration: none;
+    color: inherit;
+    width: 11px;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+}
+
+.upper-sub a:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.upper-sub p{
+    font-size: 0.9rem;
+}
+
+.lower-sub{
+    display: flex;
+    gap: 1rem;
+}
+
+.lower-sub p{
+    font-size: 0.7rem;
+
+}
+
+.upper-sub{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+
+.footer-icon{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0.5rem;
+   border-radius: 100%;
+   
+}
+
+.footer-icon i,
+.footer-icon p{
+    font-size: 0.9rem;
+}
+
+
+.middle{
+    width: 4rem;
+}
+
+.middle i{
+    font-size: 2rem;
+}
+
+.footer-icon a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-icon img{
+    width: 1.4rem;
+    border-radius: 100%;
+
+}
+.footer-icon:hover{
+    background-color: rgb(218, 218, 218);
+    cursor: pointer;
+}
